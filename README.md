@@ -16,4 +16,4 @@ Because detailed forecasts are mostly inaccurate anyway. Might as well enjoy the
 
 ---
 
-*Press 1–8 to explore all weather moods. No buttons required.*
+*Press ← → to explore all weather moods. No buttons required.*
