@@ -1,7 +1,7 @@
-const CACHE = 'weatherbydivy-v4';
+const CACHE = 'weatherbydivy-v5';
 // Only cache static assets — never the HTML document itself.
 // HTML always fetches from the network so deploys are reflected immediately.
-const STATIC_ASSETS = ['/manifest.json', '/icon-192.png', '/icon-512.png'];
+const STATIC_ASSETS = ['/manifest.json', '/icon-192.png', '/icon-512.png', '/scenes/night.png', '/scenes/storm.png', '/scenes/golden.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(STATIC_ASSETS)));
